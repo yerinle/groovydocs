@@ -4,7 +4,11 @@ A Clojure repl helper to launch groovy/grails javadocs in the browser
 
 ## Usage
 
+(groovydoc ClassName)
+
+e.g
 (groovydoc String)
+(groovydoc grails.util.ClosureToMapPopulator)
 
 ## License
 

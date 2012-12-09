@@ -4,6 +4,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.4.0"]
+                [org.codehaus.groovy/groovy-all "2.0.4"]
                  [org.grails/grails-core "2.1.0"]]
 
   :repositories [["grailsCentral" "http://grails.org/plugins" ]
