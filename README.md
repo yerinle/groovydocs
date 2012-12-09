@@ -1,12 +1,9 @@
 # groovydocs
 
-A Clojure repl helper tolaunch groovy javadocs in the browser
+A Clojure repl helper to launch groovy/grails javadocs in the browser
 
 ## Usage
 
-(groovydoc <Class name>)
-
-e.g
 (groovydoc String)
 
 ## License

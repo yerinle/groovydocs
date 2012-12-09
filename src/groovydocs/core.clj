@@ -9,12 +9,17 @@
 (def ^:dynamic *feeling-lucky* true)
 
 (def ^:dynamic *core-groovy-api* "http://groovy.codehaus.org/groovy-jdk/")
+(def ^:dynamic *core-grails-api* "http://grails.org/doc/latest/api/")
 (def ^:dynamic *local-groovydocs* (ref (list)))
 
 (def ^:dynamic *remote-groovydocs*
   (ref (sorted-map
          "java." *core-groovy-api*
-         "javax." *core-groovy-api*)))
+         "javax." *core-groovy-api*
+         "grails." *core-grails-api*
+         "org.codehaus.groovy.grails." *core-grails-api*
+         "org.grails.plugins.tomcat." *core-grails-api*
+         "org.slf4j.impl." *core-grails-api* )))
 
 (defn add-local-groovydoc
   "Adds to the list of local groovydoc paths."
